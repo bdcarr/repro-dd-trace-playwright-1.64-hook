@@ -1,0 +1,12 @@
+{
+  "name": "dd-trace-playwright-hook-location",
+  "private": true,
+  "scripts": {
+    "repro": "node run.js",
+    "repro:no-dd": "node run.js --no-dd"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.0",
+    "dd-trace": "6.20.1"
+  }
+}
